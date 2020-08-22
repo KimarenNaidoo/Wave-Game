@@ -32,6 +32,9 @@ public class Game extends Canvas implements Runnable{
         menu = new Menu(this, handler, hud);
         this.addKeyListener(new KeyInput(handler));
         this.addMouseListener(menu);
+
+        AudioPlayer.playMenuSound();
+
         new Window(WIDTH, HEIGHT, "Game!", this);
 
         spawner = new Spawn(handler, hud);
@@ -40,6 +43,7 @@ public class Game extends Canvas implements Runnable{
         r = new Random();
 
         if (gameState == STATE.Game){
+            AudioPlayer.playGameSound();
             handler.addObject(new Player(WIDTH/2-32, HEIGHT/2-32, ID.Player, handler));
             handler.addObject(new BasicEnemy(r.nextInt(Game.WIDTH - 50), r.nextInt(Game.HEIGHT - 50), ID.BasicEnemy, handler));
         }else{
@@ -101,8 +105,10 @@ public class Game extends Canvas implements Runnable{
         handler.tick();
 
         if(gameState == STATE.Game){
+
             hud.tick();
             spawner.tick();
+            //AudioPlayer.stopMenuMusic();
 
             if(hud.HEALTH <= 0){
                 HUD.HEALTH = 100;
