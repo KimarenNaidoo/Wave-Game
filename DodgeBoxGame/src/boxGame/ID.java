@@ -5,6 +5,7 @@ public enum ID {// Separates enemy and friendly objects
     BasicEnemy(),
     FastEnemy(),
     SmartEnemy(),
+    HardEnemy(),
     EnemyBoss(),
     MenuParticle(),
     Trail();

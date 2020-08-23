@@ -24,12 +24,10 @@ public class Menu extends MouseAdapter {
 
         if(game.gameState == Game.STATE.Menu){
 
-            // Game btn
+            // Play btn
             if(mouseOver(mx, my, 200, 100, 225, 64)){
-                game.gameState = Game.STATE.Game;
-                handler.addObject(new Player(Game.WIDTH/2-32, Game.HEIGHT/2-32, ID.Player, handler));
-                handler.clearEnemy();
-                handler.addObject(new BasicEnemy(r.nextInt(Game.WIDTH - 50), r.nextInt(Game.HEIGHT - 50), ID.BasicEnemy, handler));
+                game.gameState = Game.STATE.Select;
+                return;
             }
 
             // Help btn
@@ -58,15 +56,46 @@ public class Menu extends MouseAdapter {
             }
         }
 
-        // Try again btn
-        if(game.gameState == Game.STATE.End){
-            if(mouseOver(mx, my, 200, 300, 225,64)){
+        if(game.gameState == Game.STATE.Select){
+
+            // Normal btn
+            if(mouseOver(mx, my, 200, 100, 225, 64)){
                 game.gameState = Game.STATE.Game;
-                hud.setLevel(1);
-                hud.setScore(0);
                 handler.addObject(new Player(Game.WIDTH/2-32, Game.HEIGHT/2-32, ID.Player, handler));
                 handler.clearEnemy();
                 handler.addObject(new BasicEnemy(r.nextInt(Game.WIDTH - 50), r.nextInt(Game.HEIGHT - 50), ID.BasicEnemy, handler));
+                game.diff = 0;
+            }
+
+            // Hard btn
+            if(mouseOver(mx, my, 200, 200, 225, 64)){
+                game.gameState = Game.STATE.Game;
+                handler.addObject(new Player(Game.WIDTH/2-32, Game.HEIGHT/2-32, ID.Player, handler));
+                handler.clearEnemy();
+                handler.addObject(new HardEnemy(r.nextInt(Game.WIDTH - 50), r.nextInt(Game.HEIGHT - 50), ID.BasicEnemy, handler));
+                game.diff = 1;
+            }
+
+            if(game.gameState == Game.STATE.Help){
+                if(mouseOver(mx, my, 200, 300, 225,64)){
+                    game.gameState = Game.STATE.Menu;
+                    return;
+                }
+            }
+
+            // back(SELECT) btn
+            if(mouseOver(mx, my, 200, 300, 225,64)){
+                game.gameState = Game.STATE.Menu;
+                return;
+            }
+        }
+
+        // Try again btn
+        if(game.gameState == Game.STATE.End){
+            if(mouseOver(mx, my, 200, 300, 225,64)){
+                game.gameState = Game.STATE.Menu;
+                hud.setLevel(1);
+                hud.setScore(0);
 
             }
         }
@@ -138,6 +167,25 @@ public class Menu extends MouseAdapter {
             g.setFont(fnt2);
             g.drawRect(200, 300, 225, 64);
             g.drawString("Try Again", 245, 344);
+        }else if(game.gameState == Game.STATE.Select){
+            Font fnt = new Font("arial", 1, 50);
+            Font fnt2 = new Font("arial", 1, 30);
+
+            g.setFont(fnt);
+            g.setColor(Color.WHITE);
+            g.drawString("Select Difficulty", 135, 70);
+
+            g.setFont(fnt2);
+            g.drawRect(200, 100, 225, 64);
+            g.drawString("Normal", 260, 144);
+
+            g.setColor(Color.WHITE);
+            g.drawRect(200, 200, 225, 64);
+            g.drawString("Hard", 280, 244);
+
+            g.setColor(Color.WHITE);
+            g.drawRect(200, 300, 225, 64);
+            g.drawString("Back", 280, 344);
         }
 
     }
