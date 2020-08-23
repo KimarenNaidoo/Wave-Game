@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b46c7c4-e4fd-4188-bb80-8352d1f5b279" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/boxGame/HardEnemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DodgeBoxGame/boxGame/Game$STATE.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DodgeBoxGame/boxGame/Game$STATE.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DodgeBoxGame/boxGame/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DodgeBoxGame/boxGame/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DodgeBoxGame/boxGame/KeyInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DodgeBoxGame/boxGame/KeyInput.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DodgeBoxGame/boxGame/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DodgeBoxGame/boxGame/Menu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DodgeBoxGame/boxGame/Spawn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DodgeBoxGame/boxGame/Spawn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/boxGame/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boxGame/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/boxGame/ID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boxGame/ID.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/boxGame/KeyInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boxGame/KeyInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/boxGame/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boxGame/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/boxGame/Spawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boxGame/Spawn.java" afterDir="false" />
-    </list>
+    <list default="true" id="7b46c7c4-e4fd-4188-bb80-8352d1f5b279" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,14 +14,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/boxGame/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-714">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="680">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4319#4320#0" expanded="true" />
-                <element signature="e#4347#4348#0" expanded="true" />
-                <element signature="e#4711#4712#0" expanded="true" />
-                <element signature="e#4737#4738#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -43,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/boxGame/Spawn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+            <state relative-caret-position="1037">
+              <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -52,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/boxGame/HardEnemy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+            <state relative-caret-position="595">
+              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,7 +47,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/boxGame/KeyInput.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
+            <state relative-caret-position="204">
               <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -137,6 +120,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,7 +155,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -231,7 +214,7 @@
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23176292" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23556231" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -375,16 +358,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/boxGame/KeyInput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/boxGame/ID.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -401,29 +374,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/boxGame/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-714">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="680">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4319#4320#0" expanded="true" />
-            <element signature="e#4347#4348#0" expanded="true" />
-            <element signature="e#4711#4712#0" expanded="true" />
-            <element signature="e#4737#4738#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/boxGame/Spawn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+        <state relative-caret-position="1037">
+          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/boxGame/HardEnemy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        <state relative-caret-position="595">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/boxGame/KeyInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
